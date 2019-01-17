@@ -12,6 +12,7 @@ yum -y install build-essential curl git man vim autoconf libtool debootstrap squ
 yum -y install python36u
 yum -y install python36u-pip
 yum -y install python36u-devel
+pip3.6 install --upgrade setuptools pip
 yum -y install cmake lapack-devel lapack blas blas-devel
 pip3.6  install progressbar2
 git clone https://github.com/JohannesBuchner/MultiNest.git
