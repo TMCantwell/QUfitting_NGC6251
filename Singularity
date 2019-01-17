@@ -23,7 +23,7 @@ cd /
 yum -y install python-matplotlib scipy numpy
 git clone https://github.com/JohannesBuchner/PyMultiNest.git
 cd PyMultiNest
-python setup.py install
+python3.6 setup.py install
 
 
 %environment
@@ -31,4 +31,4 @@ export LD_LIBRARY_PATH=/MultiNest/lib/:$LD_LIBRARY_PATH
 
 %runscript
 echo "Arguments received: $*"
-exec python "$@"
+exec python3.6 "$@"
