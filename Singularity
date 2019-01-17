@@ -13,7 +13,7 @@ yum -y install python36u
 yum -y install python36u-pip
 yum -y install python36u-devel
 yum -y install cmake lapack-devel lapack blas blas-devel
-pip install progressbar2
+pip3.6  install progressbar2
 git clone https://github.com/JohannesBuchner/MultiNest.git
 cd MultiNest/build/
 cmake .. && make
